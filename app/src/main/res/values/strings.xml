@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EnglishToMetricConverterDanL</string>
+    <string name="txtInch">Inches</string>
+    <string name="txtMile">Miles</string>
+    <string name="txtSqFt">Square Feet</string>
+    <string name="txtOz">Ounces</string>
+    <string name="txtLb">Pounds</string>
+    <string name="txtTsp">Teaspoons</string>
+    <string name="txtTbs">Tablespoons</string>
+    <string name="txtFlOz">Fluid Ounces</string>
+    <string name="txtQrt">Quarts</string>
+    <string name="txtFahren">Fahrenheit</string>
+    <string name="txtCm">Centimeters</string>
+    <string name="txtKiloM">Kilometers</string>
+    <string name="txtSqMeter">Square Meters</string>
+    <string name="txtGrams">Grams</string>
+    <string name="txtKiloG">Kilograms</string>
+    <string name="txtMili">Milileters</string>
+    <string name="txtLiters">Liters</string>
+    <string name="txtCel">Celsius</string>
+    <string name="btnConvert">Convert</string>
+    <string name="txtHint">Enter Measurement</string>
+    <string name="txtTitle">Select a method of conversion:</string>
+    <string name="radInToCM">Inches to Centimeters</string>
+    <string name="radMiToKiloM">Miles to Kilometers</string>
+    <string name="radSqFtToSqMtr">Square Feet to Square Meter</string>
+    <string name="radOzToGram">Ounces to Grams</string>
+    <string name="radLbToKilo">Pounds to Kilograms</string>
+    <string name="radTspToMl">Teaspoons to Mililiters</string>
+    <string name="radTbsToMl">Tablespoons to Mililiter</string>
+    <string name="radFlOzToMl">Fluid Ounces to Mililiters</string>
+    <string name="radQrtToLiter">Quarts to Liters</string>
+    <string name="radFahrenToCel">Fahrenheit to Celsius</string>
+</resources>

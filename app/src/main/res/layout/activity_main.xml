@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnConvert"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMeasureInput" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="296dp"
+        android:layout_height="331dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle">
+
+        <RadioButton
+            android:id="@+id/radInchToCm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radInToCM"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radMiToKiloM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radMiToKiloM"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radSqFtToSqMeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radSqFtToSqMtr"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radOzToGrams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radOzToGram"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radLbToKiloG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radLbToKilo"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radTspToMl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radTspToMl"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radTbsToMl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radTbsToMl"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radFlOzToMl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radFlOzToMl"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radQrtToLiter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radQrtToLiter"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radFahToCel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radFahrenToCel"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="273dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:textColor="#2196F3"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConvert" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtTitle"
+        android:textColor="#EC0303"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtMeasureInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/txtHint"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
